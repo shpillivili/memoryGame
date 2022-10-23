@@ -23,6 +23,7 @@ function createCards() {
     }
 
     cards.forEach(card => section.append(card));
+    cards.forEach(card => card.innerHTML = "1")
 
 }
 
